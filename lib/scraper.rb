@@ -31,7 +31,7 @@ end
         profiles_hash[:blog] = social.attribute("href").value
       end 
       end 
-      profiles_hash[:profile_quote] = profile.css("")
+      profiles_hash[:profile_quote] = profile.css("div.profile-quote")
   end
 
 end
