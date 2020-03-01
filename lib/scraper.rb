@@ -31,6 +31,7 @@ end
         profiles_hash[:blog] = social.attribute("href").value
       end 
       end 
+      profiles_hash 
   end
 
 end
