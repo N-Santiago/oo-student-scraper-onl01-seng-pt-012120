@@ -32,7 +32,7 @@ end
       end 
       end 
       profiles_hash[:profile_quote] = profile.css("div.profile-quote").text 
-      profiles_hash[:bio] = profile.css("")
+      profiles_hash[:bio] = profile.css("div.description-holder p").text 
   end
 
 end
