@@ -20,7 +20,7 @@ end
   def self.scrape_profile_page(profile_url)
     profiles_hash = {}
     profile = Nokogiri::HTML(open(profile_url))
-    profile.css("div ")
+    profile.css("div social")
   end
 
 end
