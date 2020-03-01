@@ -26,9 +26,9 @@ end
       elsif social.attribute("href").value.include?("linkedin")
         profiles_hash[:linkedin] = social.attribute("href").value
       elsif social.attribute("href").value.include?("github")
-        student_profile[:github] = social.attribute("href").value
+        profiles_hash[:github] = social.attribute("href").value
       else
-        student_profile[:blog] = social.attribute("href").value
+        profiles_hash[:blog] = social.attribute("href").value
       end 
   end
 
